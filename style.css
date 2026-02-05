@@ -1,0 +1,14 @@
+body{
+    background-color: #F0EEEA;
+}
+.top-nav{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+#nav-logo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    margin-top: -1.5%;
+    font-weight: 900;
+    color: #2c3e50;
+}
