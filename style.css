@@ -1,14 +1,50 @@
 body{
     background-color: #F0EEEA;
 }
+.top{
+    background-image: url('mercedes-benz-amg-3840x2160-16850.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -1.5vh;
+    height: 100vh;
+    margin-left: -1vw;
+    margin-right: -0.5vw;
+}
 .top-nav{
+    position: relative;
+    top: 7%;
+    left: 10%;
     display: grid;
     grid-template-columns: auto 1fr auto;
+    background-color: #2E2E2E;
+    width: 70vw;
+    text-align: center;
+    padding: 0 5vw;
+    border-radius: 15px;
+    box-shadow: 3px 5px 5px rgba(255, 255, 255, 0.048);
 }
 #nav-logo{
     font-family: 'Times New Roman', Times, serif;
     font-size: x-large;
-    margin-top: -1.5%;
     font-weight: 900;
-    color: #2c3e50;
+    color: whitesmoke;
+}
+.top-links{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 2vw;
+    margin-top: 3.5vh;
+    padding: 1vh;
+}
+.top-links:hover{
+    background-color:rgba(248, 248, 255, 0.187) ;
+    border-radius: 10px;
+}
+#reg{
+    padding: 1vh 3vw;
+    background-color: #2c3e5029;
+    border-radius: 10px;
+}
+#reg:hover{
+    background-color: rgba(248, 248, 255, 0.187);
 }
