@@ -7,6 +7,7 @@ body{
     margin-left: -1vw;
     margin-right: -0.5vw;
     background-color: #0e1116;
+    transition: all 600ms ease-in;
 }
 .top-nav{
     position: relative;
@@ -74,7 +75,6 @@ body{
     text-decoration: none;
     animation: ease-in-out 600ms;
     transition: all 600ms ease-in-out;
-
 }
 #btn2{
     padding: 6px 2vw;
