@@ -19,7 +19,7 @@ body{
     text-align: center;
     padding: 0 5vw;
     border-radius: 15px;
-    box-shadow: 3px 5px 5px rgba(255, 255, 255, 0.048);
+    box-shadow: 4px 1px 5px white;
 }
 #nav-logo{
     font-family: 'Times New Roman', Times, serif;
@@ -59,11 +59,36 @@ body{
 }
 #desc div{
     text-align: center;
+    margin-top: -2vh;
 }
 #desc div p{
     color: white;
-    font-size: large;       
+    font-size: large;  
+    font-family:'Times New Roman', Times, serif;     
 }
-#desc div button{
-    padding: 1.5vw 4vw;
+#btn1{
+    background-color: #181d25;
+    border-radius: 7px;
+    color: white;
+    padding: 10px 2vw;
+    text-decoration: none;
+    animation: ease-in-out 600ms;
+    transition: all 600ms ease-in-out;
+
+}
+#btn2{
+    padding: 6px 2vw;
+    background-color: white;
+    color: #181d25;
+    border-radius: 7px;
+    text-decoration: none;
+    transition: all 600ms ease-in-out;
+}
+#btn1:hover{
+    text-decoration: underline;
+    transform: scale(1.2);    
+}
+#btn2:hover{
+    text-decoration: underline;
+    transform: scale(1.2);    
 }
